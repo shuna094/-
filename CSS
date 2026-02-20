@@ -1,0 +1,61 @@
+body {
+background-color: #f2f2f2;
+font-family: Arial, sans-serif;
+padding: 20px;
+}
+
+h1, h2 {
+font-family: "Times New Roman", serif;
+text-align: center;   
+color: #333;
+}
+
+.container {
+max-width: 1000px;
+margin: 0 auto;
+}
+
+.section {
+background-color: #ffffff;
+padding: 25px;
+border-radius: 10px;
+margin-bottom: 30px;
+}
+
+.flex-container {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+gap: 20px;
+}
+
+.grid-container {
+display: grid;
+grid-template-columns: repeat(5, 1fr);
+gap: 20px;
+}
+
+.card {
+width: 150px;
+height: 150px;
+border-radius: 10px;
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+padding: 10px;
+font-size: 18px;
+}
+
+.card1 { background-color: #e57373; font-family: Arial; }
+.card2 { background-color: #81c784; font-family: "Courier New"; }
+.card3 { background-color: #64b5f6; font-family: Georgia; }
+.card4 { background-color: #ffb74d; font-family: Verdana; }
+.card5 { background-color: #ba68c8; font-family: "Comic Sans MS"; }
+
+.card6 { background-color: #4db6ac; font-family: Impact; }
+.card7 { background-color: #7986cb; font-family: Tahoma; }
+.card8 { background-color: #a1887f; font-family: "Trebuchet MS"; }
+.card9 { background-color: #90a4ae; font-family: "Lucida Console"; }
+.card10 { background-color: #f06292; font-family: "Palatino Linotype"; }
